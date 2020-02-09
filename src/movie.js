@@ -39,8 +39,7 @@ function movie({title,poster}){
     return ( 
         <div className="movie">
             <Movieposter poster = {poster}  />
-            <h1>this is movie</h1>
-            <h2>{title}</h2>
+            <h1>{title}</h1>
         </div>
     );
 }
